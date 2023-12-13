@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-13T15:17:19 IST" name="Default suite" finished-at="2023-12-13T15:17:21 IST" duration-ms="2178">
+    <groups>
+    </groups>
+    <test started-at="2023-12-13T15:17:19 IST" name="Default test" finished-at="2023-12-13T15:17:21 IST" duration-ms="2178">
+      <class name="OrangeHRM.Test.LoginTest1">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:OrangeHRM.Test.LoginTest1@47e2e487]" started-at="2023-12-13T15:17:12 IST" name="Launch" finished-at="2023-12-13T15:17:19 IST" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="invalidcredentials_login()[pri:0, instance:OrangeHRM.Test.LoginTest1@47e2e487]" started-at="2023-12-13T15:17:19 IST" name="invalidcredentials_login" finished-at="2023-12-13T15:17:20 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcredentials_login -->
+        <test-method signature="validcredentials1_login()[pri:0, instance:OrangeHRM.Test.LoginTest1@47e2e487]" started-at="2023-12-13T15:17:20 IST" name="validcredentials1_login" finished-at="2023-12-13T15:17:21 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredentials1_login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:OrangeHRM.Test.LoginTest1@47e2e487]" started-at="2023-12-13T15:17:21 IST" name="after" finished-at="2023-12-13T15:17:21 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- OrangeHRM.Test.LoginTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
