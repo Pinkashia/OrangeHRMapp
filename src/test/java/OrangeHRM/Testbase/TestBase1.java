@@ -32,7 +32,7 @@ public class TestBase1 {
 			System.out.println("File not available");
 		}
 		//2.create properties class object to read this file object
-		System.setProperty("webdriver.chrome.driver", "E:\\Projects_Reference_Data-Bootcamp\\Selenium_API\\OrangeHRM\\drivers\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		
 		
